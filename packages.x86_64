@@ -114,6 +114,7 @@ squashfs-tools
 sudo
 syslinux
 systemd-resolvconf
+ttf-opensans
 tcpdump
 terminus-font
 testdisk
@@ -123,7 +124,7 @@ udftools
 usb_modeswitch
 usbmuxd
 usbutils
-virtualbox-guest-utils-nox
+virtualbox-guest-utils
 vpnc
 wireless-regdb
 wireless_tools
@@ -132,11 +133,16 @@ wvdial
 xdg-utils
 xfsprogs
 xl2tpd
+xf86-video-amdgpu
+xf86-video-nouveau
+xf86-video-qxl
+xf86-video-vesa
 zsh
 
 # --- GNOME Desktop ---
 xorg
 mesa
+fastfetch
 gnome-shell
 gnome-control-center
 gnome-keyring
@@ -195,3 +201,4 @@ ckbcomp
 # --- calamares
 calamares-eo
 core-calamares-confignet
+core-gnome-backgrounds
