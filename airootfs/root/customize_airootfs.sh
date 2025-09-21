@@ -9,7 +9,7 @@ useradd -m -G wheel liveuser
 echo "liveuser:liveuser" | chpasswd
 
 # Passwordless sudo for wheel (optional, remove if you want sudo to ask password)
-echo "%wheel ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/wheel
-chmod 440 /etc/sudoers.d/wheel
+# echo "%wheel ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/wheel
+# chmod 440 /etc/sudoers.d/wheel
 
 pacman -Qqn | pacman -D --asdeps -
